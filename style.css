@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 80px;
+    color: grey;
+}
+h2{
+    font-size: 70px;
+}
+#highlight{
+    color: #f76860;
+}
+
+p{
+    font-weight: 50;
+    font-size: 16px;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+}
+
+.navbar ul li{
+    float: left;
+    margin-left: 50px;
+    font-size: 24px;
+
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(36, 35, 35)
+    
+}
+.first-section{
+    padding-top: 100px;
+    
+}
+.half-width{
+    width: 40%;
+    margin: 3%;
+    padding: 2%;
+    float: left;
+    display: block;
+      
+}
+
+.btn{
+    text-decoration: none;
+    background-color: rgb(221, 86, 86);
+    font-size: 36px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+.btn:hover{
+   background-color: rgb(240, 104, 80);
+}
+.half-width img{
+    width: 100%;
+}
+
+.second-section::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.third-section{
+    background-color: rgb(247, 245, 245);
+    height: 640px;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.images{
+    float: left;
+    width: 27%;
+    margin: 3%;
+    padding: 2%; 
+    box-shadow: 10px 10px 10px gray; 
+    background-color: white;
+    height: 60%;
+   
+}
+
+.images:hover{
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+
+.container {
+    position: relative;
+  
+  }
+  .container img{
+      height: 180px;
+      margin-left: 350px;
+      margin-top: 80px;
+  }
+
+
+  
+  .topleft {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    font-size: 30px;
+    color:white;
+  }
+  .container .bth-chat{
+      position: absolute;
+      left: 850px;
+      bottom: 65px; 
+     }
+
+  .container .bth-chat a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(221, 86, 86);
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-size: 20px;
+     
+
+  }
+
+  .container .bth-chat a:hover{
+      background-color: rgb(240, 104, 80);
+  }
+
